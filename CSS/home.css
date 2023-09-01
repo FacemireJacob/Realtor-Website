@@ -1,0 +1,75 @@
+/*
+Set Body to full page
+*/
+html, body {
+    height: 100%;
+    background-color: #c4c0c0;
+}
+
+/*
+Style for text
+*/
+body {
+  background-color: #c4c0c0;
+}
+
+h1 {
+  font-family: Georgia;
+  font-size: 24px;
+}
+
+a {
+  color: #ac39ac
+}
+
+p {
+  font-family: tahoma;
+  font-style: bold;
+}
+
+
+/*
+    Center Flexbox element
+*/
+#container { 
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+   }
+   .box {
+    padding: 5px;
+    width: auto;
+    height: auto;
+    margin: 0;
+    line-height: auto;
+    font-size: 2em;
+    text-align: center;
+   }
+
+/*
+* CSS for JS Effect
+*/
+   .ml7 {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.4em;
+    font-family: Georgia
+  }
+  .ml7 .text-wrapper {
+    position: relative;
+    display: flex;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0;
+    overflow: hidden;
+  }
+  .ml7 .letter {
+    transform-origin: 0 100%;
+    display: inline-block;
+    line-height: 1em;
+  }

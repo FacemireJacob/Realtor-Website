@@ -1,0 +1,38 @@
+body {
+   background-color: #c4c0c0;
+}
+
+h1 {
+   font-family: Georgia;
+   font-size: 24px;
+}
+
+a {
+   color: #ac39ac
+
+}
+
+p {
+   font-family: Tahoma;
+}
+#container { 
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*border: 2px solid white;*/
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+   }
+/*
+   Since Boxes can contain multiple text items, we set them as flexboxes aligned ina column to neatly put all text centered
+*/
+   .box {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    height: 25%;
+    align-items: left;
+    justify-content: center;
+   }
